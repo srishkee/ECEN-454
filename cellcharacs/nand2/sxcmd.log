@@ -1,0 +1,249 @@
+### Custom WaveView ADV log file, revision O-2018.09 (build Aug 27, ) ###
+### created at 17:03:36 on Fri Feb  7 2020 (Linux AMD64) ###
+### Host Name: zach-127-08.engr.tamu.edu   User ID: skumar55   PID: 7350   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_resize_window {Custom WaveView} 952 418
+wv_move_window {Custom WaveView} {} 40 70
+wv_resize_window {Custom WaveView} 800 400
+wv_select_window {Custom WaveView} 
+wv_resize_window {Custom WaveView} 952 418
+wv_move_window {Custom WaveView} {} -10 20
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_move_window {FileDialog} {} 1075 450
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {simcap.raw} 4
+wv_dclick_list_item {FileDialog} {} {FileList} {simcap.raw} 4
+wv_select_list_item {FileDialog} {} {FileList} {Freq.ac} 2
+wv_press_button {FileDialog} {} {Ok} 
+wv_drag_tree_item {Custom WaveView} {} {hierview} {D0:Freq.ac(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Freq.ac(0)} {0} {+sep=@}
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.XAXIS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {XAxisPopMenu.Linear Scale} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.XAXIS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {XAxisPopMenu.Linear Scale} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_resize_window {MeasurementTool} 758 698
+wv_select_tree_item {MeasurementTool} {} {TypeList} {General.Data(X,Y)} {0} {+sep=.}
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 824 360
+wv_move_wv_item WV1.MEAS1 2284 118
+wv_press_key Ctrl_C 2542 282
+wv_press_key Ctrl_V 2442 432
+wv_move_window {FileDialog} {} 1104 483
+wv_move_window {FileDialog} {} 1104 485
+wv_select_dialog {FileDialog} 
+wv_close_dialog {FileDialog} 
+wv_select_window {Custom WaveView} 
+wv_press_key Ctrl_M 678 82
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "100M"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_press_key Ctrl_M 1418 445
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "200M"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 807 361
+wv_move_wv_item WV1.MEAS2 343 509
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS3
+wv_drag_item_to WV1 841 350
+wv_move_wv_item WV1.MEAS3 559 422
+wv_press_key Ctrl_M 947 613
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "300M"
+wv_set_check {MeasurementTool} {} {XLockedLevel} 1
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_press_key Ctrl_M 1386 1032
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_move_window {MeasurementTool} {} 892 383
+wv_move_window {MeasurementTool} {} 898 383
+wv_move_window {MeasurementTool} {} 973 383
+wv_move_window {MeasurementTool} {} 1085 383
+wv_move_window {MeasurementTool} {} 1220 396
+wv_move_window {MeasurementTool} {} 1342 408
+wv_move_window {MeasurementTool} {} 1449 423
+wv_move_window {MeasurementTool} {} 1537 423
+wv_move_window {MeasurementTool} {} 1738 445
+wv_move_window {MeasurementTool} {} 1774 445
+wv_move_window {MeasurementTool} {} 1787 445
+wv_move_window {MeasurementTool} {} 1792 445
+wv_set_text {MeasurementTool} {} {XAtValue} "400M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Close} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS4
+wv_drag_item_to WV1 848 356
+wv_move_wv_item WV1.MEAS4 775 330
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS4
+wv_drag_item_to WV1 858 341
+wv_move_wv_item WV1.MEAS4 775 440
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS5
+wv_drag_item_to WV1 836 356
+wv_move_wv_item WV1.MEAS5 988 341
+wv_press_key Ctrl_M 1246 505
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "500M"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS6
+wv_drag_item_to WV1 828 356
+wv_move_wv_item WV1.MEAS6 1204 279
+wv_press_key Ctrl_M 1462 443
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "600M"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS7
+wv_drag_item_to WV1 905 359
+wv_move_wv_item WV1.MEAS7 1422 81
+wv_press_key Ctrl_M 1680 245
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "700M"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS8
+wv_drag_item_to WV1 857 356
+wv_move_wv_item WV1.MEAS8 1635 71
+wv_press_key Ctrl_M 1892 246
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "800M"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS9
+wv_drag_item_to WV1 885 356
+wv_move_wv_item WV1.MEAS9 1852 28
+wv_press_key Ctrl_M 2122 340
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {General} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Time Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Frequency Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Statistics} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Level} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {S Domain} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {RF} {+sep=.}
+wv_expand_tree_item {MeasurementTool} {} {TypeList} {Favorites} {+sep=.}
+wv_move_window {MeasurementTool} {} 10 45
+wv_move_window {MeasurementTool} {} 891 380
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "900M"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS10
+wv_drag_item_to WV1 929 348
+wv_move_wv_item WV1.MEAS10 2071 23
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 9.12378e+08 6.54785e-06
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 1188 652
+wv_close_dialog {Confirmation} 
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 1188 652
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/ugrads/s/skumar55/.cx_hostport/.cx_hostport_zach-127-08.engr.tamu.edu_7350'.

@@ -1,0 +1,35 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Wed Feb 12 20:22:12 2020"
+"simulator" "spectre"
+"version" "18.1.0.421.isr9"
+"date" "8:22:12 PM, Wed Feb 12, 2020"
+"design" ";Spice netlist for an inverter and a capacitor"
+"signalNameType" "spectre"
+"simMode" "Spectre"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"TransientAnalysis-tran" "analysisInst" (
+"tran"
+"TransientAnalysis.tran.tran"
+"PSF"
+""
+("time")
+"Transient Analysis `TransientAnalysis': time = (0 s -> 10 ns)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+END

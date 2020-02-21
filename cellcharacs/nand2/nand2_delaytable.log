@@ -1,0 +1,184 @@
+
+Spectre (R) Circuit Simulator
+Version 18.1.0.421.isr9 32bit -- 17 Jul 2019
+Copyright (C) 1989-2019 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: skumar55   Host: zach-127-08.engr.tamu.edu   HostID: 7D0A0ECA   PID: 5711
+Memory  available: 1.3643 GB  physical: 16.4833 GB
+Linux   : CentOS Linux release 7.7.1908 (Core)
+CPU Type: Intel(R) Core(TM) i7-8700T CPU @ 2.40GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3378.8] (  6 ),  1 [3896.5] (  7 ),  2 [3881.5] (  8 )
+                 3 [3885.8] (  9 ),  4 [3870.8] ( 10 ),  5 [3894.1] ( 11 )
+        
+System load averages (1min, 5min, 15min) : 1.5 %, 1.4 %, 1.2 %
+Hyperthreading is enabled
+
+
+Simulating `nand2_delaytable.spi' on zach-127-08.engr.tamu.edu at 4:58:40 PM, Fri Feb 7, 2020 (process id: 5711).
+Current working directory: /home/ugrads/s/skumar55/cadence/cellcharacs/nand2
+Command line:
+    /opt/coe/cadence/SPECTRE181/tools.lnx86/bin/spectre  \
+        nand2_delaytable.spi
+
+Loading /opt/coe/cadence/SPECTRE181/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /opt/coe/cadence/SPECTRE181/tools.lnx86/cmi/lib/5.0/libphilips_o_sh.so ...
+Loading /opt/coe/cadence/SPECTRE181/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /opt/coe/cadence/SPECTRE181/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /opt/coe/cadence/SPECTRE181/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+Reading file:  /home/ugrads/s/skumar55/cadence/cellcharacs/nand2/nand2_delaytable.spi
+Reading file:  /opt/coe/cadence/SPECTRE181/tools.lnx86/spectre/etc/configs/mapsubckt.cfg
+Reading file:  /opt/coe/cadence/SPECTRE181/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /home/ugrads/s/skumar55/cadence/cellcharacs/model18.spi
+Reading file:  /home/ugrads/s/skumar55/cadence/cellcharacs/cell18.spi
+Time for NDB Parsing: CPU = 74.953 ms, elapsed = 151.013 ms.
+Time accumulated: CPU = 105.063 ms, elapsed = 151.021 ms.
+Peak resident memory used = 41.9 Mbytes.
+
+Time for Elaboration: CPU = 27.412 ms, elapsed = 27.411 ms.
+Time accumulated: CPU = 133.017 ms, elapsed = 179.015 ms.
+Peak resident memory used = 46.8 Mbytes.
+
+
+Time for EDB Visiting: CPU = 709 us, elapsed = 715.017 us.
+Time accumulated: CPU = 133.9 ms, elapsed = 179.918 ms.
+Peak resident memory used = 47.4 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2426): X1.M2: `Pdiblc2' = -8.75063e-06 is negative.
+
+
+Global user options:
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 5
+            bsim3v3 4     
+          capacitor 1     
+            vsource 3     
+
+Analysis and control statement inventory:
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+
+Warning from spectre during initial setup.
+    WARNING (CMI-2426): X1.M2: `Pdiblc2' = -8.75063e-06 is negative.
+
+Time for parsing: CPU = 11.911 ms, elapsed = 16.0959 ms.
+Time accumulated: CPU = 145.961 ms, elapsed = 196.182 ms.
+Peak resident memory used = 49.3 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************************
+Transient Analysis `TransientAnalysis': time = (0 s -> 10 ns)
+*************************************************************
+DC simulation time: CPU = 622 us, elapsed = 311.852 us.
+
+Opening the PSF file nand2_delaytable.raw/TransientAnalysis.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 10 ns
+    step = 1 ps
+    maxstep = 200 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (voltage)
+
+......9......8......7......6......5......4......3..
+
+Notice from spectre at time = 7.46121 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node X1.n_wire.
+
+......9......8......7......6......5......4......3...
+
+Notice from spectre at time = 7.66121 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node X1.n_wire.
+
+......9......8......7......6......5......4......3.....
+
+Notice from spectre at time = 7.86121 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node X1.n_wire.
+
+......9......8......7......6......5......4......3......
+
+Notice from spectre at time = 8.06121 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node X1.n_wire.
+
+......9......8......7......6......5......4......3......2
+
+Notice from spectre at time = 8.26121 ns during transient analysis `TransientAnalysis'.
+    Found trapezoidal ringing on node X1.n_wire.
+        Further occurrences of this notice will be suppressed.
+
+......9......8......7......6......5......4......3......2......1......0
+Number of accepted tran steps =             90
+
+Notice from spectre during transient analysis `TransientAnalysis'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(NAND2_out) = 1.805 V
+I: I(vvdd:p) = 164.6 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (5.9 %)       2 (5.9 %)       3 (47.1 %)      8 (35.3 %)
+                 9 (5.9 %)      11 (5.9 %)      
+        Other   
+Initial condition solution time: CPU = 718 us, elapsed = 364.065 us.
+Intrinsic tran analysis time:    CPU = 9.352 ms, elapsed = 8.7471 ms.
+Total time required for tran analysis `TransientAnalysis': CPU = 20.148 ms, elapsed = 17.9069 ms.
+Time accumulated: CPU = 170.669 ms, elapsed = 222.883 ms.
+Peak resident memory used = 51.8 Mbytes.
+
+
+Notice from spectre.
+    9 notices suppressed.
+
+
+Aggregate audit (4:58:40 PM, Fri Feb 7, 2020):
+Time used: CPU = 175 ms, elapsed = 227 ms, util. = 77.2%.
+Time spent in licensing: elapsed = 23.4 ms, percentage of total = 10.3%.
+Peak memory used = 52.7 Mbytes.
+Simulation started at: 4:58:40 PM, Fri Feb 7, 2020, ended at: 4:58:40 PM, Fri Feb 7, 2020, with elapsed time (wall clock): 227 ms.
+spectre completes with 0 errors, 2 warnings, and 8 notices.

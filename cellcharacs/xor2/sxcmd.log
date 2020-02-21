@@ -1,0 +1,196 @@
+### Custom WaveView ADV log file, revision O-2018.09 (build Aug 27, ) ###
+### created at 20:35:19 on Wed Feb 12 2020 (Linux AMD64) ###
+### Host Name: n01-zeus.olympus.ece.tamu.edu   User ID:    PID: 6476   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 190 213
+wv_select_window {Custom WaveView} 
+wv_resize_window {Custom WaveView} 954 544
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {simcap.raw} 2
+wv_dclick_list_item {FileDialog} {} {FileList} {simcap.raw} 2
+wv_select_list_item {FileDialog} {} {FileList} {Freq.ac} 2
+wv_press_button {FileDialog} {} {Ok} 
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:Freq.ac(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Freq.ac(0)@toplevel(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Freq.ac(0)@toplevel(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:Freq.ac(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {R1:1} 0
+wv_dclick_list_item {Custom WaveView} {} {sigview} {R1:1} 0
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.XAXIS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {XAxisPopMenu.Linear Scale} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.YAXIS1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.XAXIS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {XAxisPopMenu.Linear Scale} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_tree_item {MeasurementTool} {} {TypeList} {General.Data(X,Y)} {0} {+sep=.}
+wv_select_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "1M"
+wv_select_dialog {MeasurementTool} 
+wv_set_text {MeasurementTool} {} {XAtValue} "100M"
+wv_select_dialog {MeasurementTool} 
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_text {MeasurementTool} {} {XAtValue} "200M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_text {MeasurementTool} {} {XAtValue} "300M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_text {MeasurementTool} {} {XAtValue} "400M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_text {MeasurementTool} {} {XAtValue} "500M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_set_text {MeasurementTool} {} {XAtValue} "600M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_text {MeasurementTool} {} {XAtValue} "700M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_text {MeasurementTool} {} {XAtValue} "800M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_text {MeasurementTool} {} {XAtValue} "900M"
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_text {MeasurementTool} {} {XAtValue} "1G"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 495 207
+wv_move_wv_item WV1.MEAS1 240 29
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 481 195
+wv_move_wv_item WV1.MEAS2 354 94
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS3
+wv_drag_item_to WV1 504 215
+wv_move_wv_item WV1.MEAS3 468 155
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS4
+wv_drag_item_to WV1 501 215
+wv_move_wv_item WV1.MEAS4 580 124
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS5
+wv_drag_item_to WV1 552 219
+wv_move_wv_item WV1.MEAS5 694 171
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS5
+wv_drag_item_to WV1 726 193
+wv_move_wv_item WV1.MEAS5 701 167
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS5
+wv_press_key Ctrl_A 917 672
+wv_press_key Ctrl_Z 907 623
+wv_press_key Ctrl_Z 878 592
+wv_press_key "U" 871 584
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.XAXIS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {XAxisPopMenu.Linear Scale} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS4
+wv_move_wv_item WV1.MEAS4 624 144
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1 4.37115e+08 0.000460343
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 4.1161e+08 0.000481983
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS4
+wv_drag_item_to WV1 650 167
+wv_move_wv_item WV1.MEAS4 580 111
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS5
+wv_drag_item_to WV1 733 185
+wv_move_wv_item WV1.MEAS5 695 176
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS3
+wv_drag_item_to WV1 604 176
+wv_move_wv_item WV1.MEAS3 468 125
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS6
+wv_drag_item_to WV1 538 212
+wv_move_wv_item WV1.MEAS6 698 437
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS7
+wv_drag_item_to WV1 505 211
+wv_move_wv_item WV1.MEAS7 808 381
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS6
+wv_drag_item_to WV1 793 463
+wv_move_wv_item WV1.MEAS6 599 508
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS7
+wv_drag_item_to WV1 836 407
+wv_move_wv_item WV1.MEAS7 808 468
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS8
+wv_drag_item_to WV1 609 213
+wv_move_wv_item WV1.MEAS8 922 381
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS9
+wv_drag_item_to WV1 619 208
+wv_move_wv_item WV1.MEAS9 1035 288
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS10
+wv_drag_item_to WV1 613 205
+wv_move_wv_item WV1.MEAS10 1089 177
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 4.34477e+08 0.000398374
+wv_drag_item_to WV1 622 207
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.5708e+08 0.000394439
+wv_drag_item_to WV1 539 215
+wv_zoom WV1.PANEL1:1 3.5708e+08 0.000394439 4.20405e+08 0.000361979
+wv_press_key Ctrl_Z 769 286
+wv_press_key "U" 769 286
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS4
+wv_drag_item_to WV1 721 131
+wv_move_wv_item WV1.MEAS4 581 157
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS5
+wv_drag_item_to WV1 756 204
+wv_move_wv_item WV1.MEAS5 695 208
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS6
+wv_drag_item_to WV1 715 527
+wv_move_wv_item WV1.MEAS6 695 208
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS11
+wv_drag_item_to WV1 526 208
+wv_move_wv_item WV1.MEAS11 940 51
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS5
+wv_drag_item_to WV1 760 227
+wv_move_wv_item WV1.MEAS5 695 188
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS6
+wv_drag_item_to WV1 738 225
+wv_move_wv_item WV1.MEAS6 695 187
+wv_move_window {Custom WaveView} {} 0 0
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 8 31
+wv_move_window {Custom WaveView} {} 0 0
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 8 31
+wv_move_window {Custom WaveView} {} 0 0
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 8 31
+wv_select_window {Custom WaveView} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/ugrads/s/skumar55/.cx_hostport/.cx_hostport_n01-zeus.olympus.ece.tamu.edu_6476'.
