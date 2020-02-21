@@ -1,0 +1,4 @@
+time (s),delay(?wf1 v("/in" ?result "tran"), ?value1 0.9, ?edge1 "rising", ?nth1 1, ?td1 0.0, ?tol1 nil, ?wf2 v("/out" ?result "tran"), ?value2 0.9, ?edge2 "falling", ?nth2 1, ?tol2 nil,  ?td2 0.0 , ?stop nil,  ?period1 1 ?period2 1 ?multiple t ?xName "trigger" ) (s)
+3.050E-9,213.7E-12
+15.05E-9,213.8E-12
+27.05E-9,213.7E-12

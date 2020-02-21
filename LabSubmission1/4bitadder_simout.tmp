@@ -1,0 +1,54 @@
+TOOL:	ncxlmode	15.20-s077: Started on Jan 24, 2020 at 15:26:02 CST
+ncxlmode
+	+delay_mode_path
+	+typdelays
+	-l
+	simout.tmp
+	/home/ugrads/s/skumar55/cadence/4bitadder_run1/testfixture.template
+	-f /home/ugrads/s/skumar55/cadence/4bitadder_run1/verilog.inpfiles
+		/opt/coe/ncsu/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/nand2/functional/verilog.v
+		/opt/coe/ncsu/ncsu-cdk-1.6.0.beta/lib/NCSU_Digital_Parts/xor2/functional/verilog.v
+		ihnl/cds0/netlist
+		ihnl/cds1/netlist
+	+nostdout
+	+nocopyright
+	+ncvlogargs+" -neverwarn -nostdout -nocopyright "
+	+ncelabargs+" -neg_tchk  -nonotifier  -sdf_NOCheck_celltype  -access +r  -pulse_e 100  -pulse_r 100  -neverwarn  -timescale 1ns/1ns -nostdout -nocopyright"
+	+ncsimargs+" -neverwarn  -nocopyright -gui -input /home/ugrads/s/skumar55/cadence/4bitadder_run1/.simTmpNCCmd "
+	+mpssession+virtuoso9457
+	+mpshost+zach-127-02.engr.tamu.edu
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncxlmode: *W,DLCVAR (/home/ugrads/s/skumar55/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncxlmode: *W,DLCVAR (/home/ugrads/s/skumar55/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncxlmode: *W,DLCVAR (/home/ugrads/s/skumar55/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncxlmode: *W,DLCVAR (/home/ugrads/s/skumar55/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncxlmode: *W,DLCVAR (/home/ugrads/s/skumar55/cds.lib,1): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $SYSTEM_CDS_LIB_DIR/cds.lib
+|
+ncxlmode: *W,DLCVAR (/home/ugrads/s/skumar55/cds.lib,1): cds.lib Invalid environment variable ''.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /opt/coe/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open shmWave -shm -default -into shm.db
+Created default SHM database shmWave
+ncsim> probe -create -shm test  -all   -depth 1
+Created probe 1
+ncsim> run
+                   0 A=0000, B=0000, Cin=0, Sum=0000, Cout=0
+                  50 A=1111, B=1111, Cin=0, Sum=1110, Cout=1
+                 100 A=1010, B=1010, Cin=1, Sum=0101, Cout=1
+                 150 A=0101, B=0101, Cin=1, Sum=1011, Cout=0
+ncsim> ^C
+ncsim> exit
+TOOL:	ncxlmode	15.20-s077: Exiting on Jan 24, 2020 at 15:26:44 CST  (total: 00:00:42)

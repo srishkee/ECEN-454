@@ -1,0 +1,90 @@
+@(#)$CDS: LVS version 6.1.8-64b 10/01/2018 19:50 (ip-172-18-22-57) $
+
+Command line: /opt/coe/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ugrads/s/skumar55/cadence/LVS -l -s -t /home/ugrads/s/skumar55/cadence/LVS/layout /home/ugrads/s/skumar55/cadence/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/ugrads/s/skumar55/cadence/LVS/layout/netlist
+       count
+        11              nets
+        5               terminals
+        6               pmos
+        6               nmos
+
+    Net-list summary for /home/ugrads/s/skumar55/cadence/LVS/schematic/netlist
+       count
+        11              nets
+        5               terminals
+        6               pmos
+        6               nmos
+
+
+    Terminal correspondence points
+    N9        N7        A
+    N8        N3        B
+    N6        N0        GND
+    N7        N1        OUT
+    N10       N9        VDD
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  12      12     
+        total                   12      12     
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  11      11     
+        total                   11      11     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   5       5      
+
+
+Probe files from /home/ugrads/s/skumar55/cadence/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/ugrads/s/skumar55/cadence/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
