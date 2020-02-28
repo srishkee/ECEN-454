@@ -1,0 +1,103 @@
+@(#)$CDS: LVS version 6.1.8-64b 10/01/2018 19:50 (ip-172-18-22-57) $
+
+Command line: /opt/coe/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ugrads/s/skumar55/cadence/LVS -l -s -t /home/ugrads/s/skumar55/cadence/LVS/layout /home/ugrads/s/skumar55/cadence/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/ugrads/s/skumar55/cadence/LVS/layout/netlist
+       count
+        91              nets
+        16              terminals
+        72              pmos
+        72              nmos
+
+    Net-list summary for /home/ugrads/s/skumar55/cadence/LVS/schematic/netlist
+       count
+        91              nets
+        16              terminals
+        72              pmos
+        72              nmos
+
+
+    Terminal correspondence points
+    N82       N12       A<0>
+    N81       N1        A<1>
+    N78       N2        A<2>
+    N76       N15       A<3>
+    N90       N10       B<0>
+    N87       N8        B<1>
+    N85       N5        B<2>
+    N83       N0        B<3>
+    N84       N18       Cin
+    N86       N3        Cout
+    N79       N4        GND
+    N80       N14       Sum<0>
+    N77       N6        Sum<1>
+    N75       N9        Sum<2>
+    N89       N13       Sum<3>
+    N88       N16       VDD
+
+Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  144     144    
+        total                   144     144    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  91      91     
+        total                   91      91     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   16      16     
+
+
+Probe files from /home/ugrads/s/skumar55/cadence/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/ugrads/s/skumar55/cadence/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
