@@ -1,0 +1,94 @@
+@(#)$CDS: LVS version 6.1.8-64b 10/01/2018 19:50 (ip-172-18-22-57) $
+
+Command line: /opt/coe/cadence/IC618/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ugrads/s/skumar55/cadence/LVS -l -s -t /home/ugrads/s/skumar55/cadence/LVS/layout /home/ugrads/s/skumar55/cadence/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+
+    Net-list summary for /home/ugrads/s/skumar55/cadence/LVS/layout/netlist
+       count
+        13              nets
+        6               terminals
+        10              pmos
+        10              nmos
+
+    Net-list summary for /home/ugrads/s/skumar55/cadence/LVS/schematic/netlist
+       count
+        13              nets
+        6               terminals
+        10              pmos
+        10              nmos
+
+
+    Terminal correspondence points
+    N10       N8        CLK
+    N11       N0        D
+    N7        N5        GND
+    N8        N11       Q
+    N12       N3        VDD
+    N9        N4        _CLK
+
+Devices in the netlist but not in the rules:
+        pcapacitor pmos nmos
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  20      20     
+        total                   20      20     
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  13      13     
+        total                   13      13     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          2       2      
+        total                   6       6      
+
+
+Probe files from /home/ugrads/s/skumar55/cadence/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal CLK's type in the schematic: inputOutput, in the layout: input
+? Terminal _CLK's type in the schematic: inputOutput, in the layout: input
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/ugrads/s/skumar55/cadence/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal CLK's type in the layout: input, in the schematic: inputOutput
+? Terminal _CLK's type in the layout: input, in the schematic: inputOutput
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
