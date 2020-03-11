@@ -1,0 +1,328 @@
+[03/06 16:25:58    645s] <CMD> pan 6.363 138.154
+[03/06 16:26:15    649s] <CMD> pan 22.202 198.129
+[03/06 16:27:35    664s] <CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+[03/06 16:27:35    664s] <CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+[03/06 16:27:35    664s] <CMD> setNanoRouteMode -quiet -drouteEndIteration default
+[03/06 16:27:35    664s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[03/06 16:27:35    664s] <CMD> setNanoRouteMode -quiet -routeWithTimingDriven true
+[03/06 16:27:35    664s] <CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+[03/06 16:27:35    664s] Running Native NanoRoute ...
+[03/06 16:27:35    664s] <CMD> routeDesign -globalDetail
+[03/06 16:27:35    664s] #routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 869.06 (MB), peak = 903.08 (MB)
+[03/06 16:27:35    664s] #WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+[03/06 16:27:35    664s] #No active setup or hold rc corner
+[03/06 16:27:35    664s] #No active RC corner or QRC tech file is missing.
+[03/06 16:27:35    664s] #**INFO: setDesignMode -flowEffort standard
+[03/06 16:27:35    664s] #**INFO: multi-cut via swapping will not be performed after routing.
+[03/06 16:27:35    664s] #**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+[03/06 16:27:35    664s] OPERPROF: Starting checkPlace at level 1, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Starting PlacementCheckFixedInst at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished PlacementCheckFixedInst at level 2, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Starting SiteArrayInit at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:     Starting spIGRtCostMap_init at level 3, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:     Finished spIGRtCostMap_init at level 3, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:     Starting SiteArrayMainInit_V17 at level 3, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:       Starting SiteArrayFPInit_V17 at level 4, MEM:1050.7M
+[03/06 16:27:36    664s] Core basic site is core
+[03/06 16:27:36    664s] OPERPROF:         Starting Placement-Init-Site-Array-V17 at level 5, MEM:1050.7M
+[03/06 16:27:36    664s] SiteArray: one-level site array dimensions = 11 x 176
+[03/06 16:27:36    664s] SiteArray: use 7,744 bytes
+[03/06 16:27:36    664s] SiteArray: current memory after site array memory allocatiion 1050.7M
+[03/06 16:27:36    664s] SiteArray: FP blocked sites are writable
+[03/06 16:27:36    664s] OPERPROF:           Starting SiteArray/Init-VDDOnBottom at level 6, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:           Finished SiteArray/Init-VDDOnBottom at level 6, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:           Starting InitTechSitePattern at level 6, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:           Finished InitTechSitePattern at level 6, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:           Starting SiteArr/FP-Init-2 at level 6, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:           Finished SiteArr/FP-Init-2 at level 6, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:           Starting SiteArr/FP-Blockage at level 6, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:           Finished SiteArr/FP-Blockage at level 6, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:         Finished Placement-Init-Site-Array-V17 at level 5, CPU:0.000, REAL:0.001, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:         Starting Placement-Build-Cache-Physical-Only-Inst-Cache at level 5, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:         Finished Placement-Build-Cache-Physical-Only-Inst-Cache at level 5, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:         Starting Placement-Build-Follow-Pin at level 5, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:         Finished Placement-Build-Follow-Pin at level 5, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:         Starting SiteArary/SetupFPBlocked at level 5, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:         Finished SiteArary/SetupFPBlocked at level 5, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:       Finished SiteArrayFPInit_V17 at level 4, CPU:0.000, REAL:0.002, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:       Starting SiteArrayInitPartitionBorders at level 4, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:       Finished SiteArrayInitPartitionBorders at level 4, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:       Starting InitBlockedSiteAsBlockedInst at level 4, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:       Finished InitBlockedSiteAsBlockedInst at level 4, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:       Starting SiteArrayMarkPreplaceInsts at level 4, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:       Finished SiteArrayMarkPreplaceInsts at level 4, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:     Finished SiteArrayMainInit_V17 at level 3, CPU:0.000, REAL:0.002, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished SiteArrayInit at level 2, CPU:0.000, REAL:0.003, MEM:1050.7M
+[03/06 16:27:36    664s] Begin checking placement ... (start mem=1050.7M, init mem=1050.7M)
+[03/06 16:27:36    664s] OPERPROF:   Starting checkPlace/Loop-Through-Inst-Misc-Oper at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished checkPlace/Loop-Through-Inst-Misc-Oper at level 2, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Starting checkPlace/Loop-Through-Inst-Misc-Oper at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished checkPlace/Loop-Through-Inst-Misc-Oper at level 2, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Starting checkPlace/Loop-Through-Inst-Misc-Oper at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished checkPlace/Loop-Through-Inst-Misc-Oper at level 2, CPU:0.000, REAL:0.001, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Starting checkPlace/Vio-Check at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished checkPlace/Vio-Check at level 2, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Starting checkPlace/Adj-Rule-Check at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished checkPlace/Adj-Rule-Check at level 2, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] *info: Placed = 302           
+[03/06 16:27:36    664s] *info: Unplaced = 0           
+[03/06 16:27:36    664s] Placement Density:69.78%(10808/15488)
+[03/06 16:27:36    664s] Placement Density (including fixed std cells):69.78%(10808/15488)
+[03/06 16:27:36    664s] OPERPROF:   Starting CheckPlaceCleanup at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:     Starting PlacementCleanupFence at level 3, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:     Finished PlacementCleanupFence at level 3, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:     Starting spFreeFakeNetlist at level 3, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:     Finished spFreeFakeNetlist at level 3, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished CheckPlaceCleanup at level 2, CPU:0.000, REAL:0.001, MEM:1050.7M
+[03/06 16:27:36    664s] Finished checkPlace (total: cpu=0:00:00.0, real=0:00:01.0; vio checks: cpu=0:00:00.0, real=0:00:00.0; mem=1050.7M)
+[03/06 16:27:36    664s] OPERPROF:   Starting Placement-Reset-Physical-Only-Inst-Cache at level 2, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF:   Finished Placement-Reset-Physical-Only-Inst-Cache at level 2, CPU:0.000, REAL:0.000, MEM:1050.7M
+[03/06 16:27:36    664s] OPERPROF: Finished checkPlace at level 1, CPU:0.000, REAL:0.008, MEM:1050.7M
+[03/06 16:27:36    664s] #WARNING (NRIG-87) Timing file "" not found, resetting timing engine to default for this session.
+[03/06 16:27:36    664s] **WARN: (IMPCK-8086):	The command changeUseClockNetStatus is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+[03/06 16:27:36    664s] 
+[03/06 16:27:36    664s] changeUseClockNetStatus Option :  -noFixedNetWires 
+[03/06 16:27:36    664s] *** Changed status on (0) nets in Clock.
+[03/06 16:27:36    664s] *** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=1050.7M) ***
+[03/06 16:27:36    664s] #ROUTE-DESIGN-CMD: N5-process: 0 [db_process_node=]
+[03/06 16:27:36    664s] 
+[03/06 16:27:36    664s] globalDetailRoute
+[03/06 16:27:36    664s] 
+[03/06 16:27:36    664s] #setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+[03/06 16:27:36    664s] #setNanoRouteMode -routeReserveSpaceForMultiCut true
+[03/06 16:27:36    664s] #setNanoRouteMode -routeWithSiDriven false
+[03/06 16:27:36    664s] #setNanoRouteMode -routeWithTimingDriven true
+[03/06 16:27:36    664s] #Start globalDetailRoute on Fri Mar  6 16:27:36 2020
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Warning: design is detail-routed. Trial route is skipped!
+[03/06 16:27:36    664s] Updating RC grid for preRoute extraction ...
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/speed[7] of net speed[7] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/speed[6] of net speed[6] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/speed[5] of net speed[5] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/speed[4] of net speed[4] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/speed[3] of net speed[3] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/speed[2] of net speed[2] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/speed[1] of net speed[1] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/speed[0] of net speed[0] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/cruisespeed[7] of net cruisespeed[7] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/cruisespeed[6] of net cruisespeed[6] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/cruisespeed[5] of net cruisespeed[5] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/cruisespeed[4] of net cruisespeed[4] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/cruisespeed[3] of net cruisespeed[3] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/cruisespeed[2] of net cruisespeed[2] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/cruisespeed[1] of net cruisespeed[1] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/cruisespeed[0] of net cruisespeed[0] because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/clk of net clk because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/reset of net reset because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/throttle of net throttle because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (NRIG-39) NanoRoute cannot route to pin PIN/set of net set because it might be a logical pin and does not have physical shapes. To fix the problem, check the pin connection in the netlist and ensure the pin shapes exist in the floorplan.
+[03/06 16:27:36    664s] #WARNING (EMS-27) Message (NRIG-39) has exceeded the current message display limit of 20.
+[03/06 16:27:36    664s] #To increase the message display limit, refer to the product command reference manual.
+[03/06 16:27:36    664s] ### Net info: total nets: 329
+[03/06 16:27:36    664s] ### Net info: dirty nets: 0
+[03/06 16:27:36    664s] ### Net info: marked as disconnected nets: 0
+[03/06 16:27:36    664s] ### Net info: fully routed nets: 317
+[03/06 16:27:36    664s] ### Net info: trivial (single pin) nets: 0
+[03/06 16:27:36    664s] ### Net info: unrouted nets: 12
+[03/06 16:27:36    664s] ### Net info: re-extraction nets: 0
+[03/06 16:27:36    664s] ### Net info: ignored nets: 0
+[03/06 16:27:36    664s] ### Net info: skip routing nets: 0
+[03/06 16:27:36    664s] #WARNING (NRDB-2005) SPECIAL_NET gnd has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+[03/06 16:27:36    664s] #WARNING (NRDB-2005) SPECIAL_NET vdd has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+[03/06 16:27:36    664s] #WARNING (NRDB-976) The TRACK STEP 1.2000 for preferred direction tracks is smaller than the PITCH 1.6000 for LAYER metal6. This will cause routability problems for NanoRoute.
+[03/06 16:27:36    664s] #Start reading timing information from file .timing_file_10123.tif.gz ...
+[03/06 16:27:36    664s] #WARNING (NRDB-194) 
+[03/06 16:27:36    664s] #No setup time constraints read in
+[03/06 16:27:36    664s] #Read in timing information for 26 ports, 302 instances from timing file .timing_file_10123.tif.gz.
+[03/06 16:27:36    664s] #NanoRoute Version 18.10-p002_1 NR180522-1057/18_10-UB
+[03/06 16:27:36    664s] #RTESIG:78da85cdbd0ac23018856167afe223ed10c16abefc3471155c558aba960a310d945692f4
+[03/06 16:27:36    664s] #       fe2db896767e1fcec9f2d7a50282e680acf832c66b846b858629ce0b644a1fd1d4537a9e
+[03/06 16:27:36    664s] #       c936cb6ff78790021850df27eb6cd8c3186d806853f2bddbfd89e6257c9a2e5aa0ef61e8
+[03/06 16:27:36    664s] #       660da252eb884b0da4f5ae2540630a539977b2d490c2b8b8a5c469fd5049be30b4f9015e
+[03/06 16:27:36    664s] #       bd592d
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #RTESIG:78da85cdbd0ac23018856167afe223ed10c16abefc3471155c558aba960a310d945692f4
+[03/06 16:27:36    664s] #       fe2db896767e1fcec9f2d7a50282e680acf832c66b846b858629ce0b644a1fd1d4537a9e
+[03/06 16:27:36    664s] #       c936cb6ff78790021850df27eb6cd8c3186d806853f2bddbfd89e6257c9a2e5aa0ef61e8
+[03/06 16:27:36    664s] #       660da252eb884b0da4f5ae2540630a539977b2d490c2b8b8a5c469fd5049be30b4f9015e
+[03/06 16:27:36    664s] #       bd592d
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Start routing data preparation on Fri Mar  6 16:27:36 2020
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] # metal1       H   Track-Pitch = 1.0000    Line-2-Via Pitch = 0.6500
+[03/06 16:27:36    664s] # metal2       V   Track-Pitch = 0.8000    Line-2-Via Pitch = 0.6500
+[03/06 16:27:36    664s] # metal3       H   Track-Pitch = 1.0000    Line-2-Via Pitch = 0.6500
+[03/06 16:27:36    664s] # metal4       V   Track-Pitch = 0.8000    Line-2-Via Pitch = 0.6500
+[03/06 16:27:36    664s] # metal5       H   Track-Pitch = 1.0000    Line-2-Via Pitch = 0.6500
+[03/06 16:27:36    664s] # metal6       V   Track-Pitch = 1.2000    Line-2-Via Pitch = 1.0000
+[03/06 16:27:36    664s] #Regenerating Ggrids automatically.
+[03/06 16:27:36    664s] #Auto generating G-grids with size=15 tracks, using layer metal3's pitch = 1.0000.
+[03/06 16:27:36    664s] #Using automatically generated G-grids.
+[03/06 16:27:36    664s] #Done routing data preparation.
+[03/06 16:27:36    664s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 873.54 (MB), peak = 903.08 (MB)
+[03/06 16:27:36    664s] #Merging special wires...
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Finished routing data preparation on Fri Mar  6 16:27:36 2020
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Cpu time = 00:00:00
+[03/06 16:27:36    664s] #Elapsed time = 00:00:00
+[03/06 16:27:36    664s] #Increased memory = 3.77 (MB)
+[03/06 16:27:36    664s] #Total memory = 873.54 (MB)
+[03/06 16:27:36    664s] #Peak memory = 903.08 (MB)
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Start global routing on Fri Mar  6 16:27:36 2020
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #WARNING (NRGR-22) Design is already detail routed.
+[03/06 16:27:36    664s] #Routing data preparation, pin analysis, global routing and track assignment statistics:
+[03/06 16:27:36    664s] #Cpu time = 00:00:00
+[03/06 16:27:36    664s] #Elapsed time = 00:00:00
+[03/06 16:27:36    664s] #Increased memory = 3.77 (MB)
+[03/06 16:27:36    664s] #Total memory = 873.54 (MB)
+[03/06 16:27:36    664s] #Peak memory = 903.08 (MB)
+[03/06 16:27:36    664s] ### max drc and si pitch = 1750 (  1.7500 um) MT-safe pitch = 1000 (  1.0000 um) patch pitch = 3500 (  3.5000 um)
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Start Detail Routing..
+[03/06 16:27:36    664s] #start 1st optimization iteration ...
+[03/06 16:27:36    664s] #   number of violations = 0
+[03/06 16:27:36    664s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 874.89 (MB), peak = 903.08 (MB)
+[03/06 16:27:36    664s] #Complete Detail Routing.
+[03/06 16:27:36    664s] #Total wire length = 9374 um.
+[03/06 16:27:36    664s] #Total half perimeter of net bounding box = 10143 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal1 = 904 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal2 = 4343 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal3 = 3939 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal4 = 157 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal5 = 32 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal6 = 0 um.
+[03/06 16:27:36    664s] #Total number of vias = 1436
+[03/06 16:27:36    664s] #Up-Via Summary (total 1436):
+[03/06 16:27:36    664s] #           
+[03/06 16:27:36    664s] #-----------------------
+[03/06 16:27:36    664s] # metal1            907
+[03/06 16:27:36    664s] # metal2            513
+[03/06 16:27:36    664s] # metal3             14
+[03/06 16:27:36    664s] # metal4              2
+[03/06 16:27:36    664s] #-----------------------
+[03/06 16:27:36    664s] #                  1436 
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Total number of DRC violations = 0
+[03/06 16:27:36    664s] #Cpu time = 00:00:00
+[03/06 16:27:36    664s] #Elapsed time = 00:00:00
+[03/06 16:27:36    664s] #Increased memory = 0.08 (MB)
+[03/06 16:27:36    664s] #Total memory = 873.62 (MB)
+[03/06 16:27:36    664s] #Peak memory = 903.08 (MB)
+[03/06 16:27:36    664s] ### max drc and si pitch = 1750 (  1.7500 um) MT-safe pitch = 1000 (  1.0000 um) patch pitch = 3500 (  3.5000 um)
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Start Post Route wire spreading..
+[03/06 16:27:36    664s] ### max drc and si pitch = 1750 (  1.7500 um) MT-safe pitch = 1000 (  1.0000 um) patch pitch = 3500 (  3.5000 um)
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Start DRC checking..
+[03/06 16:27:36    664s] #   number of violations = 0
+[03/06 16:27:36    664s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 906.41 (MB), peak = 906.48 (MB)
+[03/06 16:27:36    664s] #CELL_VIEW cruisecontrol,init has no DRC violation.
+[03/06 16:27:36    664s] #Total number of DRC violations = 0
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Start data preparation for wire spreading...
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Data preparation is done on Fri Mar  6 16:27:36 2020
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Start Post Route Wire Spread.
+[03/06 16:27:36    664s] #Done with 1 horizontal wires in 1 hboxes and 10 vertical wires in 1 hboxes.
+[03/06 16:27:36    664s] #Complete Post Route Wire Spread.
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Total wire length = 9374 um.
+[03/06 16:27:36    664s] #Total half perimeter of net bounding box = 10143 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal1 = 904 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal2 = 4343 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal3 = 3939 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal4 = 157 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal5 = 32 um.
+[03/06 16:27:36    664s] #Total wire length on LAYER metal6 = 0 um.
+[03/06 16:27:36    664s] #Total number of vias = 1436
+[03/06 16:27:36    664s] #Up-Via Summary (total 1436):
+[03/06 16:27:36    664s] #           
+[03/06 16:27:36    664s] #-----------------------
+[03/06 16:27:36    664s] # metal1            907
+[03/06 16:27:36    664s] # metal2            513
+[03/06 16:27:36    664s] # metal3             14
+[03/06 16:27:36    664s] # metal4              2
+[03/06 16:27:36    664s] #-----------------------
+[03/06 16:27:36    664s] #                  1436 
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] ### max drc and si pitch = 1750 (  1.7500 um) MT-safe pitch = 1000 (  1.0000 um) patch pitch = 3500 (  3.5000 um)
+[03/06 16:27:36    664s] #
+[03/06 16:27:36    664s] #Start DRC checking..
+[03/06 16:27:36    665s] #   number of violations = 0
+[03/06 16:27:36    665s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 906.54 (MB), peak = 906.77 (MB)
+[03/06 16:27:36    665s] #CELL_VIEW cruisecontrol,init has no DRC violation.
+[03/06 16:27:36    665s] #Total number of DRC violations = 0
+[03/06 16:27:36    665s] #   number of violations = 0
+[03/06 16:27:36    665s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 875.52 (MB), peak = 906.77 (MB)
+[03/06 16:27:36    665s] #CELL_VIEW cruisecontrol,init has no DRC violation.
+[03/06 16:27:36    665s] #Total number of DRC violations = 0
+[03/06 16:27:36    665s] #Post Route wire spread is done.
+[03/06 16:27:36    665s] #Total wire length = 9374 um.
+[03/06 16:27:36    665s] #Total half perimeter of net bounding box = 10143 um.
+[03/06 16:27:36    665s] #Total wire length on LAYER metal1 = 904 um.
+[03/06 16:27:36    665s] #Total wire length on LAYER metal2 = 4343 um.
+[03/06 16:27:36    665s] #Total wire length on LAYER metal3 = 3939 um.
+[03/06 16:27:36    665s] #Total wire length on LAYER metal4 = 157 um.
+[03/06 16:27:36    665s] #Total wire length on LAYER metal5 = 32 um.
+[03/06 16:27:36    665s] #Total wire length on LAYER metal6 = 0 um.
+[03/06 16:27:36    665s] #Total number of vias = 1436
+[03/06 16:27:36    665s] #Up-Via Summary (total 1436):
+[03/06 16:27:36    665s] #           
+[03/06 16:27:36    665s] #-----------------------
+[03/06 16:27:36    665s] # metal1            907
+[03/06 16:27:36    665s] # metal2            513
+[03/06 16:27:36    665s] # metal3             14
+[03/06 16:27:36    665s] # metal4              2
+[03/06 16:27:36    665s] #-----------------------
+[03/06 16:27:36    665s] #                  1436 
+[03/06 16:27:36    665s] #
+[03/06 16:27:36    665s] #detailRoute Statistics:
+[03/06 16:27:36    665s] #Cpu time = 00:00:00
+[03/06 16:27:36    665s] #Elapsed time = 00:00:00
+[03/06 16:27:36    665s] #Increased memory = 0.63 (MB)
+[03/06 16:27:36    665s] #Total memory = 874.17 (MB)
+[03/06 16:27:36    665s] #Peak memory = 906.77 (MB)
+[03/06 16:27:36    665s] #
+[03/06 16:27:36    665s] #globalDetailRoute statistics:
+[03/06 16:27:36    665s] #Cpu time = 00:00:00
+[03/06 16:27:36    665s] #Elapsed time = 00:00:00
+[03/06 16:27:36    665s] #Increased memory = 3.91 (MB)
+[03/06 16:27:36    665s] #Total memory = 872.96 (MB)
+[03/06 16:27:36    665s] #Peak memory = 906.77 (MB)
+[03/06 16:27:36    665s] #Number of warnings = 26
+[03/06 16:27:36    665s] #Total number of warnings = 132
+[03/06 16:27:36    665s] #Number of fails = 0
+[03/06 16:27:36    665s] #Total number of fails = 0
+[03/06 16:27:36    665s] #Complete globalDetailRoute on Fri Mar  6 16:27:36 2020
+[03/06 16:27:36    665s] #
+[03/06 16:27:36    665s] #routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 872.92 (MB), peak = 906.77 (MB)
+[03/06 16:27:36    665s] 
+[03/06 16:27:36    665s] *** Summary of all messages that are not suppressed in this session:
+[03/06 16:27:36    665s] Severity  ID               Count  Summary                                  
+[03/06 16:27:36    665s] WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+[03/06 16:27:36    665s] *** Message Summary: 1 warning(s), 0 error(s)
+[03/06 16:27:36    665s] 
+[03/06 16:27:36    665s] ### 
+[03/06 16:27:36    665s] ###   Scalability Statistics
+[03/06 16:27:36    665s] ### 
+[03/06 16:27:36    665s] ### --------------------------------+----------------+----------------+----------------+
+[03/06 16:27:36    665s] ###   routeDesign                   |        cpu time|    elapsed time|     scalability|
+[03/06 16:27:36    665s] ### --------------------------------+----------------+----------------+----------------+
+[03/06 16:27:36    665s] ###   Pre Callback                  |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   Post Callback                 |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   Timing Data Generation        |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   DB Import                     |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   DB Export                     |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   Special Wire Merging          |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   Data Preparation              |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   Global Routing                |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   Detail Routing                |        00:00:00|        00:00:00|             1.0|
+[03/06 16:27:36    665s] ###   Entire Command                |        00:00:00|        00:00:00|             0.9|
+[03/06 16:27:36    665s] ### --------------------------------+----------------+----------------+----------------+
+[03/06 16:27:36    665s] ### 

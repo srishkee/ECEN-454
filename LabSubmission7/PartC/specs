@@ -1,0 +1,4 @@
+#Total wire length = 9374 um.
+#Total number of vias = 1436
+[03/06 16:27:36    664s] Placement Density:69.78%(10808/15488)
+[03/06 16:27:36    664s] Placement Density (including fixed std cells):69.78%(10808/15488)
